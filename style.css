@@ -1,0 +1,52 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+
+.form-container {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 2px 2px 5px 1px grey;
+    color: white;
+
+}
+
+.form-container input[type="text"] {
+    padding: 2px;
+    width: 100%;
+    height: 30px;
+}
+
+.form-container input[type="password"] {
+    padding: 2px;
+    width: 100%;
+    height: 30px;
+}
+
+
+.form-container select {
+    padding: 3px;
+    width: 103%;
+    height: 40px;
+}
+.form-container button {
+    padding: 5px 15px;
+    float: right;
+}
+
